@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background: #111;
+  color: white;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+input,
+textarea {
+  width: 96%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: white;
+}
+
+.appointments-table th,
+.appointments-table td {
+  border: 1px solid #666;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.appointments-table th {
+  font-weight: 700;
+}
+
+.table-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.table-actions button {
+  width: 100%;
+  padding: 6px 10px;
+}
+.appointments-table th:nth-child(1),
+.appointments-table td:nth-child(1) {
+  width: 160px;
+}
+
+.appointments-table th:nth-child(2),
+.appointments-table td:nth-child(2) {
+  width: 200px;
+}
+
+.appointments-table th:nth-child(3),
+.appointments-table td:nth-child(3) {
+  width: 150px;
+}
+
+.appointments-table th:nth-child(4),
+.appointments-table td:nth-child(4) {
+  width: 200px;
+}
+
+.appointments-table th:nth-child(5),
+.appointments-table td:nth-child(5) {
+  width: 150px;
+}
